@@ -45,6 +45,15 @@
                     <li class="nav-item nav-link">
                         @Html.ActionLink("Contact", "Contact", "Home")
                     </li>
+                    <li class="nav-item nav-link">
+                        @Html.ActionLink("Main Office", "mainOfficeEmployees", "Home")
+                    </li>
+                    <li class="nav-item nav-link">
+                        @Html.ActionLink("Pay Calcualtor", "GrossPayCalculator", "Home")
+                    </li>
+                    <li class="nav-item nav-link">
+                        @Html.ActionLink("Add New Employee", "AddEmp", "Home")
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -53,7 +62,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p> @DateTime.Now.Year - &copy; XYZ Detective Agency</p>
         </footer>
     </div>
 

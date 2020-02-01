@@ -24,7 +24,8 @@ namespace MVC5Employees.Controllers
             return View();
         }
 
-        [HttpPost] ActionResult AddEmp(int empID, string empName, int empSal)
+        [HttpPost]
+        public ActionResult AddEmp(int empID, string empName, int empSal)
         {
             Employee e = new Employee()
             {
@@ -40,6 +41,11 @@ namespace MVC5Employees.Controllers
         }
 
         public ActionResult GrossPayCalculator()
+        {
+            return View();
+        }
+
+        public ActionResult mainOfficeEmployees()
         {
             return View();
         }

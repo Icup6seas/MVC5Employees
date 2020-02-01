@@ -137,6 +137,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\detective.png" />
+    <Content Include="Content\detectives.jpg" />
     <Content Include="Content\spying.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -271,8 +272,9 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\NewEmpForm.cshtml" />
-    <Content Include="Views\Home\EmpConfirm.cshtml" />
     <Content Include="Views\Home\GrossPayCalculator.cshtml" />
+    <Content Include="Views\Home\mainOfficeEmployees.cshtml" />
+    <Content Include="Views\Home\EmpConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
