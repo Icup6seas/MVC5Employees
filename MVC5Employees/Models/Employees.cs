@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MVC5Employees.Models
 {
-    public class Employees
+    public class Employee
     {
         public int Id { get; set; }
         public string Name { get; set; }

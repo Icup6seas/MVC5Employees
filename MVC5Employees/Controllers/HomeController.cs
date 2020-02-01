@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MVC5Employees.Models;
 
 namespace MVC5Employees.Controllers
 {
@@ -21,6 +22,21 @@ namespace MVC5Employees.Controllers
         public ActionResult Contact()
         {
             return View();
+        }
+
+        [HttpPost] ActionResult AddEmp(int empID, string empName, int empSal)
+        {
+            Employee e = new Employee()
+            {
+                Id = empID,
+                Name = empName,
+                Salary = empSal
+            };
+            return View("EmpConfirm", e);
+        }
+        public ActionResult AddEmp()
+        {
+            return View("NewEmpForm");
         }
     }
 }
