@@ -38,5 +38,10 @@ namespace MVC5Employees.Controllers
         {
             return View("NewEmpForm");
         }
+
+        public ActionResult GrossPayCalculator()
+        {
+            return View();
+        }
     }
 }
